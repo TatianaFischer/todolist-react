@@ -3,7 +3,7 @@
 ### Simples To do List para desktop:
 * React.js
 * Typescript
-* AntDesign
+* Bibliote escolhida: [AntDesign](https://ant.design/)
 
 ### DEPLOY da primeira versão: Vercel -> https://todolist-igti.vercel.app/
 
