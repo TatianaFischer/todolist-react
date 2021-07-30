@@ -3,8 +3,12 @@
 ### Simples To do List para desktop:
 * React.js
 * Typescript
-* Materia UI
+* AntDesign
 
-### DEPLOY: Vercel -> https://todolist-igti.vercel.app/
+### DEPLOY da primeira versão: Vercel -> https://todolist-igti.vercel.app/
+
+### Gif da versão final:
+
+<img src="./public/gif.gif"/>
 
 ### Trabalho desenvolvido para o MBA [IGTI](https://www.igti.com.br/)
