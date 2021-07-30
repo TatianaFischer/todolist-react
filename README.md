@@ -5,6 +5,9 @@
 * Typescript
 * Bibliote escolhida: [AntDesign](https://ant.design/)
 
+### AntDesign
+Layouts completos e componentes individuais prontos (icones, botões, inputs, calendários, gráficos, menus...).
+
 ### DEPLOY da primeira versão: Vercel -> https://todolist-igti.vercel.app/
 
 ### Gif da versão final:
