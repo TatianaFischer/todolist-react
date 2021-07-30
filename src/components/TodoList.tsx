@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import { TextField, IconButton } from '@material-ui/core';
-import AddIcon from '@material-ui/icons/Add';
-import DeleteIcon from '@material-ui/icons/Delete';
+
+import { PlusSquareTwoTone, DeleteTwoTone } from '@ant-design/icons';
+
+import { DatePicker, Space } from 'antd';
+
+const { RangePicker } = DatePicker;
 
 interface TodoItem {
   id: number;
@@ -38,13 +42,17 @@ export const TodoList: React.FC = () => {
             value={item.value}
             onChange={e => handleChange(e.currentTarget.value, item.id)}
           />
+          <Space direction="vertical" size={5} style={{ marginLeft: '20px' }}>
+            <RangePicker />
+          </Space>
 
           <IconButton onClick={() => handleAdd(index)}>
-            <AddIcon />
+            <PlusSquareTwoTone />
           </IconButton>
+
           {list.length > 1 && (
             <IconButton onClick={() => handleDelete(item.id)}>
-              <DeleteIcon />
+              <DeleteTwoTone />
             </IconButton>
           )}
         </div>
